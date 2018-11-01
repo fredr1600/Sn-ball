@@ -1,1 +1,40 @@
-﻿
+﻿body{
+	height: 100%;
+	background: url(images/Bakgrunn.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	position: absolute;
+	repeat: no-repeat;
+	overflow: scroll;
+}
+
+
+.txtBox {
+	height: 350px;
+	width: 700px;
+    	margin: 200px 750px 0px 200px;
+	background-color: rgb(204,204,204);
+    	background-color: rgba(204,204,204,0.24);
+	    	
+	border: 1px solid black;
+    	
+	border-radius: 20px;
+    
+}
+
+.txt p {
+    	margin: 5%;
+    	font-weight: bold;
+    	color: white;
+	opacity: 1;
+	font-size: 18px;
+	font-family:  Verdana,Geneva,sans-serif;
+}
+.txt h1 {
+    	margin: 5%;
+    	font-weight: bold;
+    	color: white;
+	opacity: 1;
+	font-size: 21px;
+	font-family:  Verdana,Geneva,sans-serif;
+}

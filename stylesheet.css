@@ -8,6 +8,13 @@
 	overflow: scroll;
 }
 
+.logo{
+	margin-top: 40px;
+	margin-left: 50px;
+	border: 1px;
+	border-color: yellow;
+	border-style: solid;
+}
 
 .txtBox {
 	height: 350px;
@@ -53,14 +60,18 @@
 	cursor: pointer;
 }
 
-dropbtn: hover, dropbtn:focus{
+.dropbtn: hover, .dropbtn:focus{
 	background-color:#2980B9;
 }
 
-.nav{
+nav{
 	position: relative;
 	display: inline-block;
-	
+	margin-left: 51px;
+	margin-top: 0px;
+	border: 1px;
+	border-color: red;
+	border-style: solid;
 }
 
 .dd-innhold{
@@ -78,7 +89,15 @@ dropbtn: hover, dropbtn:focus{
     text-decoration: none;
     display: block;
 }
-
+.footer{
+	position: fixed;
+	left: 0;
+	bottom 0; 
+	width: 100%;
+	background-color:grey;
+	color: white;
+	text-align: center;
+}
 
 
 

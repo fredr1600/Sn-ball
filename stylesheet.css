@@ -8,6 +8,13 @@
 	overflow: scroll;
 }
 
+.logo{
+	margin-top: 40px;
+	margin-left: 50px;
+	border: 1px;
+	border-color: yellow;
+	border-style: solid;
+}
 
 .txtBox {
 	height: 350px;
@@ -54,13 +61,29 @@
 	border:none;
 	}
 
+<<<<<<< HEAD
 
 .dropdown{
 	 position: relative;
 	 display: inline-block;
+=======
+.dropbtn: hover, .dropbtn:focus{
+	background-color:#2980B9;
+}
+
+nav{
+	position: relative;
+	display: inline-block;
+	margin-left: 51px;
+	margin-top: 0px;
+	border: 1px;
+	border-color: red;
+	border-style: solid;
+>>>>>>> b442349708970722b75677ec4faa04cd3f0ddb8a
 }
 
 
+<<<<<<< HEAD
 .dropdown-content{
 	 display: none;
 	 position: absolute;
@@ -88,6 +111,23 @@
 .dropdown:hover .dropbtn {background-color: black}
 
 
+=======
+.dd-innhold a {
+	color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.footer{
+	position: fixed;
+	left: 0;
+	bottom 0; 
+	width: 100%;
+	background-color:grey;
+	color: white;
+	text-align: center;
+}
+>>>>>>> b442349708970722b75677ec4faa04cd3f0ddb8a
 
 
 

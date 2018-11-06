@@ -1,6 +1,36 @@
-﻿body{
-	height: 100%;
+﻿.index{
 	background: url(images/Bakgrunn.jpg);
+	height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	position: absolute;
+	repeat: no-repeat;
+	overflow: scroll;
+}
+
+.solution{
+	background: url(images/Bakgrunn_solution.jpg);
+	height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	position: absolute;
+	repeat: no-repeat;
+	overflow: scroll;
+}
+
+.about{
+	background: url(images/Bakgrunn_about.jpg);
+	height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	position: absolute;
+	repeat: no-repeat;
+	overflow: scroll;
+}
+
+.elevator{
+	background: url(images/Bakgrunn_elevator.jpg);
+	height: 100%;
 	background-size: cover;
 	background-attachment: fixed;
 	position: absolute;

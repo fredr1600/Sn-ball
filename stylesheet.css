@@ -41,8 +41,6 @@
 .logo{
 	margin-top: 40px;
 	margin-left: 50px;
-	
-	
 }
 
 .txtBox {
@@ -120,15 +118,15 @@ nav{
 
 
 .dropdown-content{
-	 display: none;
-	 position: absolute;
+	display: none;
+	position: absolute;
 	 
-	 min-width: 160px;
+	min-width: 160px;
 		
-	 z-index: 1;
+	z-index: 1;
 	
 	background-color: rgb(204,204,204);
-    	background-color: rgba(204,204,204,0.24);
+    background-color: rgba(204,204,204,0.24);
 	}
 
 

@@ -1,6 +1,4 @@
-﻿body{
-	overflow: hidden; 
-}
+﻿
 
 .index{
 	background: url(images/Bakgrunn.jpg);
@@ -51,7 +49,7 @@
 	height: 350px;
 	width: 700px;
 	
-    	margin: 100px 750px 0px 230px;
+    	margin: 10% 60% 0 32%;
 	background-color: rgb(204,204,204);
     	background-color: rgba(204,204,204,0.24);
 	    	
@@ -60,23 +58,37 @@
 	border-radius: 20px;
     
 }
+.txtBoxElevator {
+	height: 30%;
+	width: 30%;
+	
+    	margin-left: 60%;
+	margin-top: 5%;
+	background-color: rgb(204,204,204);
+    	background-color: rgba(204,204,204,0.24);
+	    	
+	border: 1px solid black;
+    	
+	border-radius: 20px;
+    	
+}
 
-.txt p {
-    margin: 5%;
-    font-weight: bold;
-    color: white;
+.txtBoxElevator p {
+    	margin: 5%;
+    	font-weight: bold;
+    	color: white;
 	opacity: 1;
-	font-size: 16px;
+	font-size: 0.83vw;
 	font-family:  Verdana,Geneva,sans-serif;
 	text-align: justify;
 }
 
-.txt h1 {
+.txtBoxElevator h1 {
     margin: 5%;
     font-weight: bold;
     color: white;
 	opacity: 1;
-	font-size: 25px;
+	font-size: 150%;
 	font-family:  Verdana,Geneva,sans-serif;
 	text-align: left;
 	text-indent: 3em;

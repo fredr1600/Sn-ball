@@ -1,4 +1,8 @@
-﻿.index{
+﻿body{
+	overflow: hidden; 
+}
+
+.index{
 	background: url(images/Bakgrunn.jpg);
 	height: 100%;
 	background-size: cover;

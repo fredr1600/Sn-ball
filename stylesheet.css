@@ -155,7 +155,7 @@ nav{
 ::-webkit-scrollbar{
 	width: 0px;
 	background-color: black;
-	opacity: 0.1;
+	opacity: 0;
 }
 
 

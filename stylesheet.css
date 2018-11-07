@@ -164,7 +164,11 @@ nav{
 .dropdown:hover .dropdown-content {display:block;}
 
 
-
+::-webkit-scrollbar{
+	width: 0px;
+	background-color: black;
+	opacity: 0;
+}
 
 
 

@@ -5,9 +5,10 @@
 	height: 100%;
 	background-size: cover;
 	background-attachment: fixed;
-	position: absolute;
+	position: fixed;
 	repeat: no-repeat;
 	overflow: scroll;
+	
 }
 
 .solution{
@@ -45,59 +46,7 @@
 	margin-left: 50px;
 }
 
-.txtBox {
-	height: 350px;
-	width: 700px;
-	
-    	margin: 10% 60% 0 32%;
-	background-color: rgb(204,204,204);
-    	background-color: rgba(204,204,204,0.24);
-	    	
-	border: 1px solid black;
-    	
-	border-radius: 20px;
-    
-}
-.txtBoxElevator {
-	height: 30%;
-	width: 30%;
-	
-    	margin-left: 60%;
-	margin-top: 5%;
-	background-color: rgb(204,204,204);
-    	background-color: rgba(204,204,204,0.24);
-	    	
-	border: 1px solid black;
-    	
-	border-radius: 20px;
-    	
-}
-
-.txtBoxElevator p {
-    	margin: 5%;
-    	font-weight: bold;
-    	color: white;
-	opacity: 1;
-	font-size: 0.83vw;
-	font-family:  Verdana,Geneva,sans-serif;
-	text-align: justify;
-}
-
-.txtBoxElevator h1 {
-    margin: 5%;
-    font-weight: bold;
-    color: white;
-	opacity: 1;
-	font-size: 150%;
-	font-family:  Verdana,Geneva,sans-serif;
-	text-align: left;
-	text-indent: 3em;
-}
-
-
 .dropbtn{
-	
-	
 	top: 30px;
 	color: white;
 	
@@ -121,22 +70,12 @@
 	background-color:#2980B9;
 }
 
-nav{
-	position: relative;
-	display: inline-block;
-	margin-left: 51px;
-	margin-top: 0px;
-	border: 1px;
-	border-color: red;
-	border-style: solid;
 
-}
 
 
 .dropdown-content{
 	display: none;
 	position: absolute;
-	 
 	min-width: 160px;
 		
 	z-index: 1;
@@ -164,11 +103,32 @@ nav{
 .dropdown:hover .dropdown-content {display:block;}
 
 
-::-webkit-scrollbar{
-	width: 0px;
-	background-color: black;
-	opacity: 0;
+table {
+	margin-top: 7%;
+	margin-left: 12%;
 }
 
 
-
+td:first-child {
+	width: 40%;
+	background-color: rgb(204,204,204);
+    background-color: rgba(204,204,204,0.3);
+	border-radius: 20px;
+}
+td p {
+    color: white;
+	padding: 2%;
+	margin: 0% 0% 0% 0%;
+	font-family:  Verdana,Geneva,sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	display: inline-block;
+}
+.overskrift {
+    color: white;
+	padding: 2%;
+	font-family:  Verdana,Geneva,sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	display: inline-block;
+}
